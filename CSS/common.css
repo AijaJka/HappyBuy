@@ -1,0 +1,144 @@
+/* 页面公用css样式---所有页面都会用到的css写在这个文件 */
+/* 左浮动 */
+.bg{
+  background: red;
+}
+.fl{
+  float: left;
+}
+/* 右浮动 */
+.fr{
+  float: right;
+}
+/* 清浮动 */
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* 版心 */
+.wrap{
+  width: 1200px;
+  margin: auto;
+  
+}
+/* 字体大小 */
+.f12{
+  font-size: 12px;
+}
+.f14{
+  font-size: 14px;
+}
+.f18{
+  font-size: 18px;
+}
+.f20{
+  font-size: 20px;
+}
+.f22{
+  font-size: 22px;
+}
+.f24{
+  font-size: 24px;
+}
+.f26{
+  font-size: 26px;
+}
+.f28{
+  font-size: 28px;
+}
+.f30{
+  font-size: 30px;
+}
+.f32{
+  font-size: 32px;
+}
+.f34{
+  font-size: 34px;
+}
+.f36{
+  font-size: 36px;
+}
+.f38{
+  font-size: 38px;
+}
+.f40{
+  font-size: 40px;
+}
+.f42{
+  font-size: 42px;
+}
+.f44{
+  font-size: 44px;
+}
+.f46{
+  font-size: 46px;
+}
+.f48{
+  font-size: 48px;
+}
+.f50{
+  font-size: 50px;
+}
+/* 字体颜色 */
+.cfff{
+  color: #fff;
+}
+.c808{
+  color:#808080 ;
+}
+.c666{
+  color: #666666;
+}
+.c999{
+  color: #999999;
+}
+.cff6{
+  color: #ff6600;
+}
+.c000{
+  color: #000;
+}
+/* 背景颜色 */
+.bgfff{
+  background: #fff;
+}
+.bgff6{
+  background: #ff6600;
+}
+.bg00a{
+  background: #00a7ea;
+}
+/* 字体水平居中 */
+.tac{
+  text-align: center;
+}
+/* 字体加粗 */
+.fwb{
+  font-weight: bold ;
+}
+/* 标签水平居中 */
+.ma{
+  margin: auto;
+}
+.bg080{
+  background: #080808;
+}
+.bg000{
+  background: #000000;
+}
+/* 字体加粗 */
+.fw{
+  font-weight: bold;
+}
+/* 文字水平居中 */
+.ta{
+  text-align: center;
+}
+/* 标签居中 */
+.ma{
+  margin: auto;
+}
+.cred{
+  color: red;
+}

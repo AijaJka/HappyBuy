@@ -1,0 +1,272 @@
+/* 头部 */
+
+
+/* 黑色头部 */
+
+#header>.blackTop {
+    width: 100%;
+    height: 28px;
+    background: #000;
+    color: #fff;
+    line-height: 28px;
+}
+
+#header>.blackTop a {
+    color: #fff;
+}
+
+#header>.blackTop a:hover {
+    color: #ff6600;
+}
+
+#header>.blackTop>.wrap>span:first-child {
+    margin-left: 265px;
+}
+
+
+/* 搜索框盒子 */
+
+#header>.searchBox {
+    margin-top: 8px;
+}
+
+
+/* 输入框盒子 */
+
+#header>.searchBox>.wrap>.inpBox {
+    margin-right: 0px;
+}
+
+#header>.searchBox>.wrap>.inpBox>input {
+    width: 388px;
+    height: 32px;
+    background: #fff;
+    border: 2px solid #ff6600;
+    text-indent: 8px;
+    outline: none;
+}
+
+#header>.searchBox>.wrap>.inpBox>input::-webkit-input-placeholder {
+    color: #bfbfbf;
+}
+
+#header>.searchBox>.wrap>.inpBox>button {
+    width: 48px;
+    height: 36px;
+    background: #ff6600 url("../images/bgicon.png") no-repeat;
+    border: 1px solid #ff6600;
+    /* background-position: 0 0; */
+}
+
+
+/* 搜索框盒子 */
+
+#header>.logoAndChoose>.wrap {
+    position: relative;
+}
+
+#header>.logoAndChoose>.wrap>.imgBox>img {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
+#header>.logoAndChoose>.wrap>.imgBox>span {
+    position: absolute;
+    top: -65px;
+    left: 127px;
+}
+
+
+/* 主体内容 */
+
+#main {
+    margin-top: 24px;
+}
+
+
+/* 标题 */
+
+#main>.wrap>.titleBox>.allTitle {
+    width: 100%;
+    height: 60px;
+    background: #f2f2f2;
+}
+
+#main>.wrap>.titleBox>.allTitle>ul>li {
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    float: left;
+}
+
+#main>.wrap .floorBox>li:first-child {
+    width: 100px;
+}
+
+#main>.wrap .floorBox>li:nth-child(2) {
+    width: 490px;
+}
+
+#main>.wrap .floorBox>li:nth-child(3) {
+    width: 150px;
+}
+
+#main>.wrap .floorBox>li:nth-child(4) {
+    width: 160px;
+}
+
+#main>.wrap .floorBox>li:nth-child(5) {
+    width: 130px;
+}
+
+#main>.wrap .floorBox>li:last-child {
+    width: 170px;
+}
+
+
+/* 列表 */
+
+#main>.wrap>.listBox>.single {
+    margin-top: 27px;
+    border-bottom: 1px solid #ccc;
+    padding: 23px 0;
+}
+
+#main>.wrap>.listBox>.single>ul>li {
+    float: left;
+}
+
+#main>.wrap>.listBox {
+    width: 100%;
+    border-top: 6px solid #dfdfdf;
+    margin-top: 20px;
+}
+
+#main>.wrap .floorBox>li:nth-child(2)>img {
+    border: 1px solid #ccc;
+    padding: 10px;
+    vertical-align: top;
+}
+
+
+/* 数量盒子 */
+
+#main>.wrap .floorBox>li:nth-child(4)>.numberBox {
+    width: 126px;
+    margin: auto;
+}
+
+#main>.wrap .floorBox>li:nth-child(4)>.numberBox>button {
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    border: 1px solid #ccc;
+    float: left;
+    cursor: pointer;
+}
+
+#main>.wrap .floorBox>li:nth-child(4)>.numberBox>input {
+    width: 74px;
+    height: 24px;
+    border: none;
+    outline: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+
+
+/* 总计 */
+
+#main>.wrap>.allCountBox {
+    margin-top: 32px;
+}
+
+
+/* 左边盒子 */
+
+#main>.wrap>.allCountBox>.wrap>.leftBox {
+    width: 1070px;
+    height: 58px;
+    border: 1px solid #ccc;
+    line-height: 58px;
+}
+
+#main>.wrap>.allCountBox>.wrap>.leftBox>span>.textRight {
+    margin-left: 33px;
+}
+
+
+/* 右边文字 */
+
+#main>.wrap>.allCountBox>.wrap>.leftBox>span .numAll {
+    margin: 0 18px;
+}
+
+#main>.wrap>.allCountBox>.wrap>.leftBox>span .countAll {
+    margin: 0 55px;
+}
+
+
+/* 右边按钮 */
+
+#main>.wrap>.allCountBox>.wrap>button {
+    width: 128px;
+    height: 60px;
+    background: #ff6600;
+    border: 1px solid #ff6600;
+}
+
+#main>.wrap>.L_app {
+    margin-top: 37px;
+}
+
+#main>.wrap>.L_app>.L_BookBigkBox {
+    height: 313px;
+}
+
+#main>.wrap>.L_app>.L_BookBigkBox>p {
+    width: 220px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    font-family: SimHei;
+}
+
+#main>.wrap>.L_app>.L_BookBigkBox>.L_theBookBox {
+    /* height: 518px; */
+    background: #fff;
+    border-top: 5px solid #ff6600;
+    /* margin: auto; */
+}
+
+.L_BookLink {
+    width: 210px;
+    height: 258px;
+    margin: 0 15px 2px;
+}
+
+.L_BookLink:hover {
+    background-color: #f2f2f2;
+    height: 270px;
+}
+
+#main>.wrap>.L_app>.L_BookBigkBox>.L_theBookBox>.L_BookLink>img:first-child {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#main>.wrap>.L_app>.L_BookBigkBox>.L_theBookBox>.L_BookLink .starBox {
+    position: relative;
+    top: 3px;
+}
+
+#main>.wrap>.advertising2 {
+    margin-bottom: -4px;
+    margin-top: 50px;
+}
+
+.allCheck {
+    margin-left: 20px;
+}

@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品列表</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/common.css">
+    <link rel="stylesheet" href="./CSS/list.css">
+    <script src="./JS/jquery.min.js"></script>
+    <script src="./JS/common.js"></script>
+    <script src="./JS/index.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div id="header">
+        <!-- 黑色头部 -->
+        <div class="blackTop">
+            <!-- 版心 -->
+            <div class="wrap clearfix">
+                <span class="fl f18">legochina.cn</span>
+                <span class="fr f14">欢迎光临
+                    <a href="">乐购</a> ，请
+                    <a href="">登陆</a> \
+                    <a href="">注册</a> </span>
+            </div>
+        </div>
+
+        <!-- 搜索盒子 -->
+        <div class="searchBox">
+            <!-- 版心 -->
+            <div class="wrap clearfix">
+                <!-- 购物车盒子 -->
+                <ul class="buyCarBox fr clearfix">
+                    <li class="fl">
+                        <span class="icon"></span>
+                        <span class="cfff">购物车 3</span>
+                    </li>
+                    <li class="fl">
+                        我的订单
+                    </li>
+                </ul>
+                <!-- 输入框盒子 -->
+                <div class="inpBox fr clearfix">
+                    <input class="fl f16" type="text" placeholder="创意文具">
+                    <button class="fl"></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- logo和导航 -->
+        <div class="logoAndNav">
+            <div class="wrap">
+                <img src="./images/logo.jpg" alt="">
+                <span class="f16">
+                    <a href="">图书</a>
+                    <a href="">电子书</a>
+                    <a href="">原创文学</a>
+                    <a href="">服装</a>
+                    <a href="">运动户外</a>
+                    <a href="">育婴童</a>
+                    <a href="">家具</a>
+                    <a href="">创意文具</a>
+                    <a href="">地方特产</a>
+                    <a href="">海外购</a>
+                    <a href="">电器城</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 身体 -->
+    <div id="main">
+        <!-- 身体顶部部分 -->
+        <div class="detailsBox">
+            <!-- 身体顶部部分的上面列表 -->
+            <div class="titleBox wrap">
+                <a href="" class="f24">图书</a>
+                <a href=""> > 小说</a>
+                <a href=""> > 情感/家庭/婚姻</a>
+                <a href=""> > 博集天卷</a>
+                <a href=""> > 她和他</a>
+            </div>
+            <!-- 身体顶部部分的上面内容 -->
+            <div class="content wrap bg clearfix">
+                <!-- 身体顶部部分的里面左边 -->
+                <div class="contentLeft fl clearfix">
+                    <div class="img1"> </div>
+                    <div class="img2"> </div>
+                    <div class="toolBox ma clearfix">
+                        <div class="zou fl"></div>
+                        <div class="icon1 fl"></div>
+                        <div class="icon2 fl"></div>
+                        <span class="you fr"></span>
+                    </div>
+                    <div class="fonz">商品编号：11950959</div>
+                </div>
+                <!-- 身体顶部部分的里面右边 -->
+                <div class="contentRight fr">
+                    <div class="text">
+                        <div class="f22">她和他
+
+                        </div>
+                        <div class="f18">《偷影子的人》作者马克·李维重磅新作，法国连续60周在榜，销量突破120万册</div>
+                        <div class="f16"> [法] 马克·李维 著；杨亦雨 译</div>
+                    </div>
+                    <div class="priceBox">
+                        <div class="detailsBox">
+                            <p>乐 购 价：<span class="f24">￥26.20</span>&emsp; [6.9折] &emsp;[定价：￥38.00] &emsp;(降价通知)</p>
+                            <p>促销信息：满减
+                                <span>&emsp; 每满150.00元,可减50.00元现金&emsp;</span> 详情 >>
+                            </p>
+                        </div>
+                        <div class="Coupons">
+                            <span>领&emsp;券：</span>
+                            <a class="img1">100-6</a>
+                            <a class="img2">100-6</a>
+                        </div>
+                        <div class="a clearfix">
+                            <div class="fl"></div>
+                            <p>累计评价</p>
+                            <span>99999</span>
+                        </div>
+                    </div>
+                    <div class="detailsBox clearfix">
+                        <span class="f16 fl">种类选择:</span>
+                        <div class="fl">平装版</div>
+                        <div class="fl clearfix">精装版
+                            <div></div>
+                        </div>
+
+                    </div>
+                    <div class="quantityBox clearfix">
+                        <div class="a fl clearfix">
+                            <div class="fl">1</div>
+                            <button class="fr">+</button>
+                            <button class="fr">-</button>
+                        </div>
+                        <div class="b fr">加入购物车</div>
+                    </div>
+                    <p>温馨提示：支持7天无理由退货</p>
+                </div>
+            </div>
+        </div>
+        <!-- 身体中间部分 -->
+        <div class="middleBox">
+            <div class="wrap">
+                <div class="topBox">人气单品</div>
+                <div class="buttoBox"></div>
+                <div class="wrap clearfix">
+                    <div class="listBox fl">
+                        <div class="h"></div>
+                        <div class="img"></div>
+                        <div class="img1"></div>
+                        <p class="f14">白夜行 东野上吾</p>
+                        <div class="clearfix">
+                            <div class="a f14 fl">推荐:</div>
+                            <div class="icon fl"></div>
+                        </div>
+                        <span class="b f24">￥:38</span>&emsp;
+                        <s class="b1 f24">￥:58</s>
+                    </div>
+                    <div class="listBox fl">
+                        <div class="h"></div>
+                        <div class="img"></div>
+                        <div class="img1"></div>
+                        <p class="f14">白夜行 东野上吾</p>
+                        <div class="clearfix">
+                            <div class="a f14 fl">推荐:</div>
+                            <div class="icon fl"></div>
+                        </div>
+                        <span class="b f24">￥:38</span>&emsp;
+                    </div>
+                    <div class="listBox fl">
+                        <div class="h"></div>
+                        <div class="img"></div>
+                        <div class="img1"></div>
+                        <p class="f14">白夜行 东野上吾</p>
+                        <div class="clearfix">
+                            <div class="a f14 fl">推荐:</div>
+                            <div class="icon fl"></div>
+                        </div>
+                        <span class="b f24">￥:38</span>&emsp;
+                    </div>
+                    <div class="listBox fl">
+                        <div class="h"></div>
+                        <div class="img"></div>
+                        <div class="img1"></div>
+                        <p class="f14">白夜行 东野上吾</p>
+                        <div class="clearfix">
+                            <div class="a f14 fl">推荐:</div>
+                            <div class="icon fl"></div>
+                        </div>
+                        <span class="b f24">￥:38</span>&emsp;
+                    </div>
+                    <div class="listBox fl">
+                        <div class="h"></div>
+                        <div class="img"></div>
+                        <div class="img1"></div>
+                        <p class="f14">白夜行 东野上吾</p>
+                        <div class="clearfix">
+                            <div class="a f14 fl">推荐:</div>
+                            <div class="icon fl"></div>
+                        </div>
+                        <span class="b f24">￥:38</span>&emsp;
+                    </div>
+                </div>
+            </div>
+            <div class="introduceBox wrap clearfix">
+                <div class="leftBox fl">
+                    <div class="look f22">看了又看</div>
+                    <div class="listBox">
+                        <div class="h"></div>
+                        <div class="img"></div>
+                        <div class="img1"></div>
+                        <p class=" f14">白夜行 东野上吾</p>
+                        <div class="clearfix">
+                            <div class="a f14 fl">推荐:</div>
+                            <div class="icon fl"></div>
+                        </div>
+                        <span class="b f24">￥:38</span>&emsp;
+                        <s class="b1 f24">￥:58</s>
+                    </div>
+                    <div class="n"></div>
+                    <div class="listBox">
+                        <div class="h"></div>
+                        <div class="img"></div>
+                        <div class="img1"></div>
+                        <p class=" f14">白夜行 东野上吾</p>
+                        <div class="clearfix">
+                            <div class="a f14 fl">推荐:</div>
+                            <div class="icon fl"></div>
+                        </div>
+                        <span class="b f24">￥:38</span>&emsp;
+                        <s class="b1 f24">￥:58</s>
+                    </div>
+                    <div class="n"></div>
+                    <div class="listBox">
+                        <div class="h"></div>
+                        <div class="img"></div>
+                        <div class="img1"></div>
+                        <p class=" f14">白夜行 东野上吾</p>
+                        <div class="clearfix">
+                            <div class="a f14 fl">推荐:</div>
+                            <div class="icon fl"></div>
+                        </div>
+                        <span class="b f24">￥:38</span>&emsp;
+                        <s class="b1 f24">￥:58</s>
+                    </div>
+                    <div class="n"></div>
+                    <div class="listBox">
+                        <div class="h"></div>
+                        <div class="img"></div>
+                        <div class="img1"></div>
+                        <p class=" f14">白夜行 东野上吾</p>
+                        <div class="clearfix">
+                            <div class="a f14 fl">推荐:</div>
+                            <div class="icon fl"></div>
+                        </div>
+                        <span class="b f24">￥:38</span>&emsp;
+                        <s class="b1 f24">￥:58</s>
+                    </div>
+                    <div class="n"></div>
+                    <div class="listBox">
+                        <div class="h"></div>
+                        <div class="img"></div>
+                        <div class="img1"></div>
+                        <p class=" f14">白夜行 东野上吾</p>
+                        <div class="clearfix">
+                            <div class="a f14 fl">推荐:</div>
+                            <div class="icon fl"></div>
+                        </div>
+                        <span class="b f24">￥:38</span>&emsp;
+                        <s class="b1 f24">￥:58</s>
+                    </div>
+                    <div class="n"></div>
+                    <div class="listBox">
+                        <div class="h"></div>
+                        <div class="img"></div>
+                        <div class="img1"></div>
+                        <p class=" f14">白夜行 东野上吾</p>
+                        <div class="clearfix">
+                            <div class="a f14 fl">推荐:</div>
+                            <div class="icon fl"></div>
+                        </div>
+                        <span class="b f24">￥:38</span>&emsp;
+                        <s class="b1 f24">￥:58</s>
+                    </div>
+                    <div class="n"></div>
+                    <div class="listBox">
+                        <div class="h"></div>
+                        <div class="img"></div>
+                        <div class="img1"></div>
+                        <p class=" f14">白夜行 东野上吾</p>
+                        <div class="clearfix">
+                            <div class="a f14 fl">推荐:</div>
+                            <div class="icon fl"></div>
+                        </div>
+                        <span class="b f24">￥:38</span>&emsp;
+                        <s class="b1 f24">￥:58</s>
+                    </div>
+                    <div class="n"></div>
+                </div>
+
+                <div class="rightBox fr">
+                    <!-- 右边一级菜单 -->
+                    <div class="one clearfix">
+                        <div class="one1 fl">商品介绍</div>
+                        <div class="one2 fl">评价(9999)</div>
+                    </div>
+                    <div class="h"></div>
+                    <div class="two clearfix">
+                        <div class="two1 fl"></div>
+                        <div class="two2 fr clearfix">
+                            <div class="evaluateBox clearfix">
+                                <div class="left fl">
+                                    <div class="fl">98%</div>
+                                    <p class="fl">好评度</p>
+                                </div>
+                                <div class="inBox fl">
+                                    <div class="box clearfix">
+                                        <div class="fl">好评(98%)</div>
+                                        <div class="box1 fr">
+                                            <div class="box3 fl"></div>
+                                        </div>
+                                    </div>
+                                    <div class="box clearfix">
+                                        <div class="fl">中评(2%)</div>
+                                        <div class="box1 fr">
+                                            <div class="box4 fl"></div>
+                                        </div>
+                                    </div>
+                                    <div class="box clearfix">
+                                        <div class="fl">差评(0%)</div>
+                                        <div class="box1 fr">
+                                            <div class="fl"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rightBox  fr">
+                                    <div>1.洲**子 &emsp;&emsp;+0&emsp;&emsp;
+                                        <span>2.洲**子 &emsp;&emsp;+0&emsp; </span>
+                                    </div>
+
+                                    <div>3.洲**子 &emsp;&emsp;+10&nbsp;&emsp;
+                                        <span>4.洲**子&emsp; &emsp; +10 </span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="evaluate">
+                                <span>全部评价（9999）</span>
+                                <span>好评（9999）</span>
+                                <span>中评（9999）</span>
+                                <span>差评（9999）</span>
+                            </div>
+                            <div class="listBox clearfix">
+                                <div class="fl">
+                                    <div class="img">
+                                    </div>
+                                    <p class="f12">下单后5天评论</p>
+                                    <p class="f12">2016-08-11</p>
+                                </div>
+                                <div class="words fl">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力
+                                </div>
+                                <div class="rigth fr">
+                                    <div class="img fl"></div>
+                                    <span class="fl f14">洲**子</span>
+                                    <p class="member fl f14">金牌会员</p>
+                                    <p class="f14">自iPhone客户端</p>
+                                </div>
+                            </div>
+                            <div class="listBox clearfix">
+                                <div class="fl">
+                                    <div class="img">
+                                    </div>
+                                    <p class="f12">下单后5天评论</p>
+                                    <p class="f12">2016-08-11</p>
+                                </div>
+                                <div class="words fl">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力
+                                </div>
+                                <div class="rigth fr">
+                                    <div class="img fl"></div>
+                                    <span class="fl f14">洲**子</span>
+                                    <p class="member fl f14">金牌会员</p>
+                                    <p class="f14">自iPhone客户端</p>
+                                </div>
+                            </div>
+                            <div class="listBox clearfix">
+                                <div class="fl">
+                                    <div class="img">
+                                    </div>
+                                    <p class="f12">下单后5天评论</p>
+                                    <p class="f12">2016-08-11</p>
+                                </div>
+                                <div class="words fl">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力
+                                </div>
+                                <div class="rigth fr">
+                                    <div class="img fl"></div>
+                                    <span class="fl f14">洲**子</span>
+                                    <p class="member fl f14">金牌会员</p>
+                                    <p class="f14">自iPhone客户端</p>
+                                </div>
+                            </div>
+                            <div class="listBox clearfix">
+                                <div class="fl">
+                                    <div class="img">
+                                    </div>
+                                    <p class="f12">下单后5天评论</p>
+                                    <p class="f12">2016-08-11</p>
+                                </div>
+                                <div class="words fl">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力
+                                </div>
+                                <div class="rigth fr">
+                                    <div class="img fl"></div>
+                                    <span class="fl f14">洲**子</span>
+                                    <p class="member fl f14">金牌会员</p>
+                                    <p class="f14">自iPhone客户端</p>
+                                </div>
+                            </div>
+                            <div class="listBox clearfix">
+                                <div class="fl">
+                                    <div class="img">
+                                    </div>
+                                    <p class="f12">下单后5天评论</p>
+                                    <p class="f12">2016-08-11</p>
+                                </div>
+                                <div class="words fl">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力
+                                </div>
+                                <div class="rigth fr">
+                                    <div class="img fl"></div>
+                                    <span class="fl f14">洲**子</span>
+                                    <p class="member fl f14">金牌会员</p>
+                                    <p class="f14">自iPhone客户端</p>
+                                </div>
+                            </div>
+                            <div class="listBox clearfix">
+                                <div class="fl">
+                                    <div class="img">
+                                    </div>
+                                    <p class="f12">下单后5天评论</p>
+                                    <p class="f12">2016-08-11</p>
+                                </div>
+                                <div class="words fl">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力
+                                </div>
+                                <div class="rigth fr">
+                                    <div class="img fl"></div>
+                                    <span class="fl f14">洲**子</span>
+                                    <p class="member fl f14">金牌会员</p>
+                                    <p class="f14">自iPhone客户端</p>
+                                </div>
+                            </div>
+                            <div class="listBox clearfix">
+                                <div class="fl">
+                                    <div class="img">
+                                    </div>
+                                    <p class="f12">下单后5天评论</p>
+                                    <p class="f12">2016-08-11</p>
+                                </div>
+                                <div class="words fl">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力
+                                </div>
+                                <div class="rigth fr">
+                                    <div class="img fl"></div>
+                                    <span class="fl f14">洲**子</span>
+                                    <p class="member fl f14">金牌会员</p>
+                                    <p class="f14">自iPhone客户端</p>
+                                </div>
+                            </div>
+                            <div class="listBox clearfix">
+                                <div class="fl">
+                                    <div class="img">
+                                    </div>
+                                    <p class="f12">下单后5天评论</p>
+                                    <p class="f12">2016-08-11</p>
+                                </div>
+                                <div class="words fl">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力
+                                </div>
+                                <div class="rigth fr">
+                                    <div class="img fl"></div>
+                                    <span class="fl f14">洲**子</span>
+                                    <p class="member fl f14">金牌会员</p>
+                                    <p class="f14">自iPhone客户端</p>
+                                </div>
+                            </div>
+                            <div class="listBox clearfix">
+                                <div class="fl">
+                                    <div class="img">
+                                    </div>
+                                    <p class="f12">下单后5天评论</p>
+                                    <p class="f12">2016-08-11</p>
+                                </div>
+                                <div class="words fl">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力
+                                </div>
+                                <div class="rigth fr">
+                                    <div class="img fl"></div>
+                                    <span class="fl f14">洲**子</span>
+                                    <p class="member fl f14">金牌会员</p>
+                                    <p class="f14">自iPhone客户端</p>
+                                </div>
+                            </div>
+                            <div class="listBox clearfix">
+                                <div class="fl">
+                                    <div class="img">
+                                    </div>
+                                    <p class="f12">下单后5天评论</p>
+                                    <p class="f12">2016-08-11</p>
+                                </div>
+                                <div class="words fl">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力
+                                </div>
+                                <div class="rigth fr">
+                                    <div class="img fl"></div>
+                                    <span class="fl f14">洲**子</span>
+                                    <p class="member fl f14">金牌会员</p>
+                                    <p class="f14">自iPhone客户端</p>
+                                </div>
+                            </div>
+                            <div class="listBox clearfix">
+                                <div class="fl">
+                                    <div class="img">
+                                    </div>
+                                    <p class="f12">下单后5天评论</p>
+                                    <p class="f12">2016-08-11</p>
+                                </div>
+                                <div class="words fl">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力
+                                </div>
+                                <div class="rigth fr">
+                                    <div class="img fl"></div>
+                                    <span class="fl f14">洲**子</span>
+                                    <p class="member fl f14">金牌会员</p>
+                                    <p class="f14">自iPhone客户端</p>
+                                </div>
+                            </div>
+                            <div class="listBox clearfix">
+                                <div class="fl">
+                                    <div class="img">
+                                    </div>
+                                    <p class="f12">下单后5天评论</p>
+                                    <p class="f12">2016-08-11</p>
+                                </div>
+                                <div class="words fl">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力
+                                </div>
+                                <div class="rigth fr">
+                                    <div class="img fl"></div>
+                                    <span class="fl f14">洲**子</span>
+                                    <p class="member fl f14">金牌会员</p>
+                                    <p class="f14">自iPhone客户端</p>
+                                </div>
+                            </div>
+                            <div class="pagingBox fr clearfix">
+                                <div class=" fl bg">1</div>
+                                <div class=" fl">2</div>
+                                <div class=" fl">3</div>
+                                <div class=" fl">4</div>
+                                <div class=" fl">5</div>
+                                <div class=" fl">6</div>
+                                <span class="fl ">.....</span>
+                                <div class="paging fl">下一页</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 底部 -->
+    <div id="footer">
+        <div class="adve wrap">
+
+        </div>
+        <div class="listBox"></div>
+        <div class="a">
+            <div class="wrap clearfix">
+                <div class="fl">
+                    <img src="./images/222_11.png" alt="">
+                </div>
+                <div class="fl">
+                    <div class="logo2">
+                        <img src="./images/222_13(1).png" alt="">
+                    </div>
+                </div>
+                <div class="fl">
+                    <img src="./images/222_15.png" alt="">
+                </div>
+                <div class="fl">
+                    <img src="./images/222_17.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="liBox">
+            <div class="wrap clearfix">
+                <div>
+                    <p class="fwb">购物指南</p>
+                    <p class="f14">购物流程</p>
+                    <p class="f14">发票制度</p>
+                    <p class="f14">账户管理</p>
+                    <p class="f14">会员优惠</p>
+                </div>
+                <div>
+                    <p class="fwb">购物指南</p>
+                    <p class="f14">购物流程</p>
+                    <p class="f14">发票制度</p>
+                    <p class="f14">账户管理</p>
+                    <p class="f14">会员优惠</p>
+                </div>
+                <div>
+                    <p class="fwb">购物指南</p>
+                    <p class="f14">购物流程</p>
+                    <p class="f14">发票制度</p>
+                    <p class="f14">账户管理</p>
+                    <p class="f14">会员优惠</p>
+                </div>
+                <div>
+                    <p class="fwb">购物指南</p>
+                    <p class="f14">购物流程</p>
+                    <p class="f14">发票制度</p>
+                    <p class="f14">账户管理</p>
+                    <p class="f14">会员优惠</p>
+                </div>
+                <div>
+                    <p class="fwb">购物指南</p>
+                    <p class="f14">购物流程</p>
+                    <p class="f14">发票制度</p>
+                    <p class="f14">账户管理</p>
+                    <p class="f14">会员优惠</p>
+                </div>
+                <div class="fr">
+                    <img src="./images/logo_00.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="text wrap">
+            <span>公司简介 |</span>
+            <span>Investor Relations |</span>
+            <span>网站联盟 |</span>
+            <span>乐购招商 |</span>
+            <span>机构销售 |</span>
+            <span>手机乐购 |</span>
+            <span>官方Blog |</span>
+            <span>热词搜索 |</span>
+        </div>
+        <p class="wrap">Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+    </div>
+
+</body>
+
+</html>

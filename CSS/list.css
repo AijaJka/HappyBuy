@@ -1,0 +1,829 @@
+/* 头部 */
+
+
+/* 黑色头部 */
+
+#header>.blackTop {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    background: #101010;
+    color: #fff;
+}
+
+#header>.blackTop a {
+    color: #fff;
+}
+
+#header>.blackTop a:hover {
+    color: orange;
+}
+
+#header>.blackTop>.wrap>span:first-child {
+    margin-left: 200px;
+}
+
+
+/* <!-- 搜索盒子 --> */
+
+
+/* 购物车盒子 */
+
+#header>.searchBox>.wrap>.buyCarBox>li {
+    width: 98px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+}
+
+#header>.searchBox>.wrap>.buyCarBox>li:first-child {
+    background: #ff6600;
+    border: 1px solid #ff6000;
+}
+
+#header>.searchBox>.wrap>.buyCarBox>li>.icon {
+    display: inline-block;
+    width: 29px;
+    height: 21px;
+    background: url("../images/bgicon.png") no-repeat;
+    background-position: -3px -50px;
+    position: relative;
+    top: 3px;
+}
+
+#header>.searchBox>.wrap>.buyCarBox>li:last-child {
+    background: #ebebeb;
+    border: 1px solid #ccc;
+}
+
+
+/* 输入框盒子 */
+
+#header>.searchBox {
+    margin-top: 4px;
+    margin-bottom: 24px;
+}
+
+#header>.searchBox>.wrap>.inpBox {
+    margin-right: 36px;
+}
+
+#header>.searchBox>.wrap>.inpBox>input {
+    width: 388px;
+    height: 32px;
+    background: #fff;
+    border: 2px solid #ff6600;
+    text-indent: 8px;
+    outline: none;
+}
+
+#header>.searchBox>.wrap>.inpBox>input::-webkit-input-placeholder {
+    color: #bfbfbf;
+}
+
+#header>.searchBox>.wrap>.inpBox>button {
+    width: 48px;
+    height: 36px;
+    background: #ff6600 url("../images/bgicon.png") no-repeat;
+    border: 1px solid #ff6600;
+}
+
+#header .logoAndNav .wrap {
+    position: relative;
+}
+
+#header .logoAndNav .wrap>img {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+#header .logoAndNav .wrap>span {
+    margin-left: 200px;
+    display: block;
+    height: 30px;
+}
+
+#header .logoAndNav .wrap>span>a {
+    margin-left: 36px;
+}
+
+#main>.detailsBox {
+    width: 100%;
+    height: 596px;
+    padding-top: 20px;
+    background: #f2f2f2;
+}
+
+#main>.detailsBox>.titleBox>a {
+    color: #ccc;
+}
+
+#main>.detailsBox>.titleBox>a:nth-child(1) {
+    color: #000;
+}
+
+#main>.detailsBox>.content {
+    height: 512px;
+    background: #fff;
+    margin-top: 11px;
+}
+
+#main>.detailsBox>.content>.contentLeft {
+    height: 474px;
+    width: 372px;
+    /* background: rgb(30, 219, 24); */
+}
+
+#main>.detailsBox>.content>.contentLeft>.img1 {
+    width: 340px;
+    height: 350px;
+    background: url("../images/index08_05.jpg") no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-top: 14px;
+}
+
+#main>.detailsBox>.content>.contentLeft>.img2 {
+    width: 340px;
+    height: 350px;
+    background: url("../images/index08_05.jpg") no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-top: 14px;
+    display: none;
+}
+
+#main>.detailsBox>.content>.contentLeft>.toolBox {
+    width: 342px;
+    height: 58px;
+    /* background: #ff6000; */
+    margin-top: 26px;
+}
+
+#main>.detailsBox>.content>.contentLeft>.toolBox>.zou {
+    width: 21px;
+    height: 36px;
+    background: url("../images/左.png") no-repeat;
+    background-size: 170%;
+    background-position-x: -8px;
+    margin-top: 11px;
+}
+
+#main>.detailsBox>.content>.contentLeft>.toolBox>.you {
+    width: 21px;
+    height: 36px;
+    background: url("../images/右.png") no-repeat;
+    background-size: 170%;
+    background-position-x: -8px;
+    margin-top: 11px;
+}
+
+#main>.detailsBox>.content>.contentLeft>.toolBox>.icon1 {
+    width: 50px;
+    height: 50px;
+    background: #fff url("../images/ppt2_05.jpg") no-repeat;
+    background-size: 100%;
+    background-position-y: 10px;
+    margin-left: 10px;
+    border: 1px solid #ff6000
+}
+
+#main>.detailsBox>.content>.contentLeft>.toolBox>.icon2 {
+    width: 50px;
+    height: 50px;
+    background: #fff url("../images/ppt2_05.jpg") no-repeat;
+    background-size: 100%;
+    background-position-y: 10px;
+    margin-left: 10px;
+    /* border: 1px solid #ff6000 */
+}
+
+#main>.detailsBox>.content>.contentLeft>.fonz {
+    width: 180px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#main>.detailsBox>.content>.contentRight {
+    height: 474px;
+    width: 788px;
+    margin-top: 29px;
+    margin-right: 24px;
+}
+
+#main>.detailsBox>.content>.contentRight>.text {
+    height: 91px;
+    width: 638px;
+}
+
+#main>.detailsBox>.content>.contentRight>.text>.f22 {
+    color: #343434;
+    line-height: 35px;
+}
+
+#main>.detailsBox>.content>.contentRight>.text>.f18 {
+    line-height: 35px;
+    color: #fb2f2f;
+}
+
+#main>.detailsBox>.content>.contentRight>.text>.f16 {
+    line-height: 35px;
+    color: #818181;
+}
+
+#main>.detailsBox>.content>.contentRight>.priceBox {
+    width: 788px;
+    height: 140px;
+    background: #f5f5f5;
+    margin-top: 19px;
+    line-height: 40px;
+    position: relative;
+}
+
+#main>.detailsBox>.content>.contentRight>.priceBox>.detailsBox {
+    color: #6c6c6c;
+    margin-left: 16px;
+}
+
+#main>.detailsBox>.content>.contentRight>.priceBox>.detailsBox>p>span {
+    color: #f80e0e;
+}
+
+#main>.detailsBox>.content>.contentRight>.priceBox>.Coupons>span {
+    color: #808080;
+    margin-left: 16px;
+}
+
+#main>.detailsBox>.content>.contentRight>.priceBox>.Coupons {
+    position: relative;
+    top: 10px;
+}
+
+#main>.detailsBox>.content>.contentRight>.priceBox>.Coupons>.img1 {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    width: 94px;
+    height: 26px;
+    color: #f6f6f6;
+    background: url("../images/Q.png") no-repeat;
+    line-height: 26px;
+    text-align: center;
+}
+
+#main>.detailsBox>.content>.contentRight>.priceBox>.Coupons>.img2 {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 180px;
+    width: 94px;
+    height: 26px;
+    text-align: center;
+    color: #f6f6f6;
+    line-height: 26px;
+    background: url("../images/Q.png") no-repeat;
+}
+
+#main>.detailsBox>.content>.contentRight>.priceBox>.a {
+    position: absolute;
+    right: 11px;
+    top: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#main>.detailsBox>.content>.contentRight>.priceBox>.a>div {
+    width: 2px;
+    height: 40px;
+    margin-left: -10px;
+    margin-top: 5px;
+    background-color: #d9d9d9;
+}
+
+#main>.detailsBox>.content>.contentRight>.priceBox>.a>p {
+    color: #949494;
+}
+
+#main>.detailsBox>.content>.contentRight>.priceBox>.a>span {
+    color: #ff6000;
+}
+
+#main>.detailsBox>.content>.contentRight>.detailsBox {
+    width: 500px;
+    height: 34px;
+    /* background: paleturquoise; */
+    margin-top: 17px;
+}
+
+#main>.detailsBox>.content>.contentRight>.detailsBox>span {
+    color: #4d4d4d;
+    text-indent: 20px;
+    line-height: 34px;
+}
+
+#main>.detailsBox>.content>.contentRight>.detailsBox>div {
+    width: 100px;
+    height: 32px;
+    border: 1px solid #c9c9c9;
+    text-align: center;
+    line-height: 32px;
+    margin-left: 10px;
+    position: relative;
+}
+
+#main>.detailsBox>.content>.contentRight>.detailsBox>div>div {
+    width: 16px;
+    height: 14px;
+    position: absolute;
+    border: 2px solid #ff6600;
+    background: url("../images/select.png")no-repeat;
+    bottom: 0;
+    right: 0;
+}
+
+#main>.detailsBox>.content>.contentRight>.quantityBox {
+    width: 300px;
+    height: 60px;
+    /* background: aqua; */
+    margin-left: 20px;
+    margin-top: 54px;
+}
+
+#main>.detailsBox>.content>.contentRight>.quantityBox>.a {
+    width: 63px;
+    height: 42px;
+    border: 1px solid #d9d9d9;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+#main>.detailsBox>.content>.contentRight>.quantityBox>.a>div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    line-height: 40px;
+}
+
+#main>.detailsBox>.content>.contentRight>.quantityBox>.a>button {
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    background-color: #e5e5e5;
+    border: solid 1px #d9d9d9;
+}
+
+#main>.detailsBox>.content>.contentRight>.quantityBox>.b {
+    width: 190px;
+    height: 60px;
+    background-color: #ff6600;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 60px;
+}
+
+#main>.detailsBox>.content>.contentRight>p {
+    margin-top: 20px;
+    margin-left: 40px
+}
+
+#main>.middleBox>.wrap {
+    min-height: 310px;
+}
+
+#main>.middleBox>.wrap>.topBox {
+    width: 124px;
+    height: 47px;
+    background: #ff6600;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 47px;
+}
+
+#main>.middleBox>.wrap>.buttoBox {
+    width: 1200px;
+    height: 6px;
+    background: #ff6600;
+}
+
+#main>.middleBox>.wrap>.wrap>.listBox {
+    width: 210px;
+    height: 258px;
+    /* background: #f2f2f2; */
+}
+
+#main>.middleBox>.wrap>.wrap>.listBox>.h {
+    height: 7px;
+}
+
+#main>.middleBox>.wrap>.wrap>.listBox>.img {
+    width: 150px;
+    height: 150px;
+    top: 7px;
+    left: 30px;
+    margin: auto;
+    background: url("../images/白夜行.jpg");
+}
+
+#main>.middleBox>.wrap>.wrap>.listBox>.img1 {
+    width: 73px;
+    height: 25px;
+    background: url("../images/index05_18.jpg") no-repeat;
+}
+
+#main>.middleBox>.wrap>.wrap>.listBox>.clearfix>.a {
+    color: #f4290d;
+}
+
+#main>.middleBox>.wrap>.wrap>.listBox>.clearfix>.icon {
+    width: 120px;
+    height: 20px;
+    margin-left: 10px;
+    background: url("../images/star_small.gif") no-repeat;
+    background-position-y: -20px;
+}
+
+#main>.middleBox>.wrap>.wrap>.listBox>.b {
+    color: #f4290d;
+}
+
+#main>.middleBox>.wrap>.wrap>.listBox>.b1 {
+    color: #c0c0c0;
+}
+
+#main>.middleBox>.wrap>.wrap>.listBox {
+    margin-left: 30px;
+}
+
+#main>.middleBox>.wrap>.wrap>.listBox:hover {
+    background-color: #f2f2f2;
+}
+
+#main>.middleBox>.introduceBox>.leftBox {
+    width: 318px;
+    height: 2167px;
+    margin-top: 48px;
+    margin-left: 10px;
+    border: solid 1px #e6e6e6;
+}
+
+#main>.middleBox>.introduceBox>.leftBox>.look {
+    width: 318px;
+    height: 40px;
+    /* line-height: 40px; */
+    color: #666666;
+    background: #f4f4f4;
+}
+
+#main>.middleBox>.introduceBox>.leftBox>.listBox {
+    width: 180px;
+    height: 243px;
+    margin: auto
+}
+
+#main>.middleBox>.introduceBox>.leftBox>.listBox>.h {
+    height: 27px;
+}
+
+#main>.middleBox>.introduceBox>.leftBox>.listBox>.img {
+    width: 150px;
+    height: 150px;
+    top: 7px;
+    left: 30px;
+    margin: auto;
+    background: url("../images/白夜行.jpg");
+}
+
+#main>.middleBox>.introduceBox>.leftBox>.listBox>.img1 {
+    width: 73px;
+    height: 25px;
+    background: url("../images/index05_18.jpg") no-repeat;
+}
+
+#main>.middleBox>.introduceBox>.leftBox>.listBox>.clearfix>.a {
+    color: #f4290d;
+}
+
+#main>.middleBox>.introduceBox>.leftBox>.listBox>.clearfix>.icon {
+    width: 120px;
+    height: 20px;
+    margin-left: 10px;
+    background: url("../images/star_small.gif") no-repeat;
+    background-position-y: -20px;
+}
+
+#main>.middleBox>.introduceBox>.leftBox>.listBox>.b {
+    color: #f4290d;
+}
+
+#main>.middleBox>.introduceBox>.leftBox>.n {
+    width: 293px;
+    height: 1px;
+    margin: auto;
+    background-color: #e6e6e6;
+    margin-top: 60px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox {
+    width: 856px;
+    height: 2000px;
+    /* background: aqua; */
+    margin-top: 52px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.one {
+    min-width: 200px;
+    height: 47px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.one>.one1 {
+    width: 150px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.one>.one2 {
+    width: 150px;
+    height: 47px;
+    color: #fff;
+    background-color: #ff6600;
+    line-height: 47px;
+    text-align: center;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.h {
+    width: 856px;
+    height: 6px;
+    color: #fff;
+    background-color: #ff6600;
+    line-height: 47px;
+    text-align: center;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two1 {
+    width: 856px;
+    height: 1900px;
+    color: #fff;
+    background-color: #fff;
+    line-height: 47px;
+    text-align: center;
+    display: none
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2 {
+    width: 856px;
+    height: 1900px;
+    color: #fff;
+    /* background-color: rgb(67, 13, 216); */
+    /* line-height: 47px; */
+    /* text-align: center; */
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluateBox {
+    width: 783px;
+    height: 80px;
+    /* background: rgb(0, 255, 255); */
+    margin: auto;
+    margin-top: 45px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluateBox>.left {
+    width: 105px;
+    height: 80px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluateBox>.left>div {
+    font-size: 50px;
+    color: #f8380c;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluateBox>.left>p {
+    font-size: 18px;
+    color: #999999;
+    margin-top: 55px;
+    margin-left: -60px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluateBox>.inBox {
+    width: 224px;
+    height: 80px;
+    margin-left: 69px;
+    /* background: rgb(0, 253, 126); */
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluateBox>.inBox>.box>div {
+    font-size: 12px;
+    width: 70px;
+    color: #999999;
+    height: 16px;
+    /* background: aqua */
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluateBox>.inBox>.box {
+    margin-top: 8px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluateBox>.inBox>.box>.box1 {
+    width: 150px;
+    height: 16px;
+    background-color: #e6e6e6;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluateBox>.inBox>.box>.box1>.box3 {
+    width: 146px;
+    height: 16px;
+    background-color: #f8380c;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluateBox>.inBox>.box>.box1>.box4 {
+    width: 6px;
+    height: 16px;
+    background-color: #f8380c;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluateBox>.rightBox {
+    width: 300px;
+    height: 80px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluateBox>.rightBox>div {
+    font-size: 16px;
+    color: #666666;
+    line-height: 40px
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluate {
+    height: 30px;
+    width: 856px;
+    background: #f5f5f5;
+    margin-top: 48px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluate>span {
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+    margin-left: 20px
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.evaluate>span:nth-child(1) {
+    color: #ff6000
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.listBox {
+    min-height: 130px;
+    width: 856px;
+    margin-top: 21px;
+    /* background: aqua */
+    border-bottom: 2px solid #f5f5f5;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.listBox>div {
+    height: 130px;
+    width: 180px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.listBox>div>.img {
+    width: 115px;
+    height: 20px;
+    background: url("../images/star_small.gif")no-repeat;
+    background-position-y: -20px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.listBox>div>p {
+    width: 100px;
+    color: #6c6c6c;
+    line-height: 18px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.listBox>.words {
+    width: 470px;
+    height: 31px;
+    font-size: 14px;
+    color: #666666;
+    top: 0px;
+    /* background: #000 */
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.listBox>.rigth {
+    height: 67px;
+    width: 130px;
+    line-height: 25px
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.listBox>.rigth>.img {
+    width: 50px;
+    height: 20px;
+    background: url("../images/weixin.png") no-repeat
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.listBox>.rigth>.f14 {
+    font-family: SimHei;
+    color: #666666;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.listBox>.rigth>p {
+    color: #666666;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.listBox>.rigth>.member {
+    color: #f4b212;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.pagingBox {
+    width: 350px;
+    height: 32px;
+    margin-top: 26px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.pagingBox>div {
+    width: 30px;
+    height: 30px;
+    background-color: #fafafa;
+    border: solid 1px #e5e5e5;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 7px;
+    font-size: 18px;
+    color: #999999;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.pagingBox>span {
+    font-size: 18px;
+    color: #999999;
+    margin-top: 10px;
+    margin-left: 5px
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.pagingBox>.paging {
+    width: 64px;
+    height: 30px;
+    background-color: #fafafa;
+    border: solid 1px #e5e5e5;
+    text-align: center;
+    line-height: 30px;
+}
+
+#main>.middleBox>.introduceBox>.rightBox>.two>.two2>.pagingBox>.bg {
+    border: 0px;
+    background: #f2f2f2;
+    border: solid 1px #e5e5e5;
+    color: #ff6000;
+}
+
+#footer>.a {
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    background: #f2f2f2;
+}
+
+#footer>.a>.wrap {
+    height: 100px;
+}
+
+#footer>.a>.wrap>.fl {
+    margin-top: 25px;
+    width: 130px;
+    height: 50px;
+    margin-left: 130px;
+}
+
+#footer>.liBox {
+    /* width: 1920px; */
+    height: 160px;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+#footer>.liBox>.wrap>div {
+    width: 112px;
+    height: 130px;
+    /* background-color: #04db21; */
+    float: left;
+    margin-left: 50px;
+}
+
+#footer>.liBox>.wrap>div>p {
+    text-align: center;
+    line-height: 25px;
+}
+
+#footer>.liBox>.wrap>div>fr {
+    width: 182px;
+    height: 86px;
+    margin-left: 10px;
+}
+
+#footer>.text>span {
+    margin-left: 50px;
+}
+
+#footer>p {
+    text-align: center;
+    line-height: 100px;
+}

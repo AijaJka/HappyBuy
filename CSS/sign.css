@@ -1,0 +1,241 @@
+/* 头部 */
+
+
+/* 黑色头部 */
+
+#header>.blackTop {
+    width: 100%;
+    height: 28px;
+    background: #000;
+    color: #fff;
+    line-height: 28px;
+    margin-bottom: 36px;
+}
+
+#header>.blackTop a {
+    color: #fff;
+}
+
+#header>.blackTop a:hover {
+    color: #ff6600;
+}
+
+#header>.blackTop>.wrap>span:first-child {
+    margin-left: 270px;
+}
+
+
+/* logo */
+
+#header>.logo>.wrap {
+    position: relative;
+}
+
+#header>.logo>.wrap>.logoBox {
+    width: 258px;
+    height: 105px;
+    background: #ff6600;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#header>.logo>.wrap>.logoBox>.img {
+    width: 100px;
+    height: 105px;
+    position: relative;
+}
+
+#header>.logo>.wrap>.logoBox>.img>img {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+#header>.logo>.wrap>.logoBox>span {
+    height: 105px;
+    line-height: 105px;
+    margin-right: 45px;
+}
+
+#header>.logo>.wrap>.sign {
+    position: relative;
+    top: -20px;
+    left: 290px;
+}
+
+
+/* 主体内容 */
+
+#main {
+    height: 500px;
+    background: #da3951;
+}
+
+#main>.wrap {
+    position: relative;
+}
+
+#main>.wrap>.imgBox {
+    width: 1000px;
+    height: 500px;
+    background: url(../images/isgn-111.jpg);
+}
+
+
+/* 登录盒子 */
+
+#main>.wrap>.signBox {
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    top: 65px;
+    right: 0px;
+}
+
+#main>.wrap>.signBox>.textBox {
+    height: 55px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+#main>.wrap>.signBox>.textBox>span {
+    display: inline-block;
+    width: 174px;
+    height: 24px;
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+#main>.wrap>.signBox>.textBox>span:first-child {
+    border-right: 1px solid #f6f6f6;
+}
+
+#main>.wrap>.signBox>.textBox>.cg {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+
+/* 扫码登录 */
+
+#main>.wrap>.signBox>.scanBox {
+    width: 350px;
+    height: 314px;
+    position: relative;
+    /* display: none; */
+}
+
+#main>.wrap>.signBox>.scanBox>.scanBox-1 {
+    width: 147px;
+    height: 147px;
+    background: url(../images/eqCodeShow.png);
+    position: absolute;
+    top: 66px;
+    left: 101px;
+}
+
+#main>.wrap>.signBox>.scanBox>.scanBox-2 {
+    width: 141px;
+    height: 168px;
+    background: url(../images/phone.png);
+    position: absolute;
+    top: 55px;
+    left: 201px;
+    display: none;
+}
+
+#main>.wrap>.signBox>.scanBox>.text {
+    position: absolute;
+    bottom: 46px;
+    left: 85px;
+}
+
+#main>.wrap>.signBox>.scanBox>.text>span:hover {
+    color: #ff6600;
+}
+
+
+/* 账号登录 */
+
+
+/* 账号 */
+
+#main>.wrap>.signBox>.accBox {
+    height: 262px;
+    text-align: center;
+    border-bottom: 2px solid #f6f6f6;
+    display: none;
+}
+
+#main>.wrap>.signBox>.accBox>.alertBox {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    line-height: 40px;
+    /* background: chartreuse; */
+    margin: auto;
+}
+
+#main>.wrap>.signBox>.accBox>.accBox-1 {
+    position: relative;
+}
+
+#main>.wrap>.signBox>.accBox>.accBox-1>.acc {
+    width: 292px;
+    height: 38px;
+    margin-left: 6px;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    text-indent: 50px;
+    outline: none;
+    border: 1px solid #cccc;
+}
+
+#main>.wrap>.signBox>.accBox>.accBox-1>.img-1 {
+    width: 38px;
+    height: 38px;
+    background: url(../images/people.png);
+    position: absolute;
+    top: 24px;
+    left: 32px;
+}
+
+
+/* 密码 */
+
+#main>.wrap>.signBox>.accBox>.accBox-1>.pas {
+    width: 292px;
+    height: 38px;
+    margin-left: 6px;
+    margin-bottom: 15px;
+    text-indent: 50px;
+    outline: none;
+    border: 1px solid #cccc;
+}
+
+#main>.wrap>.signBox>.accBox>.accBox-1>.img-2 {
+    width: 38px;
+    height: 38px;
+    background: url(../images/lock.png);
+    position: absolute;
+    top: 79px;
+    left: 32px;
+}
+
+#main>.wrap>.signBox>.accBox>.but {
+    width: 290px;
+    margin-bottom: 28px;
+}
+
+#main>.wrap>.signBox>.accBox>.butBox {
+    width: 290px;
+    height: 40px;
+    border: 1px solid #ff6600;
+    outline: none;
+}
+
+#main>.wrap>.signBox>.accBox>.regi {
+    width: 130px;
+    height: 20px;
+    margin-top: 30px;
+}
